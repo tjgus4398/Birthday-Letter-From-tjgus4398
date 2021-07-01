@@ -1,4 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@200&display=swap');
+        
         body {
+            font-family: 'Nanum Myeongjo', serif;
             text-align: center;
             margin: 0px;
         }

@@ -3,15 +3,15 @@
         var total = password
 
         var originUrl = window.location.href;            // 현재 경로 추출
-        var arrSplitUrl   = originUrl.split("/");        // "/" 스플릿하고 배열생성
-        var nArLength    = arrSplitUrl.length;           
-        var fileName   = arrSplitUrl[nArLength-1];       // 배열 중 마지막이 'fileName'
+        var arrSplitUrl = originUrl.split("/");        // "/" 스플릿하고 배열생성
+        var nArLength = arrSplitUrl.length;           
+        var fileName = arrSplitUrl[nArLength-1];       // 배열 중 마지막이 'fileName'
 
         message = {                                     // 객체 message
-            "1.html":"우정이구나",
-            "2.html":"장세희구나",
-            "3.html":"조민주구나",
-            "4.html":"최서희구나",
+            "1.html":"우정이구나 안녕",
+            "2.html":"장세희 하이",
+            "3.html":"조민주 하이",
+            "4.html":"최서희 하이",
             "5.html":"김아주구나",
             "6.html":"허성희구나",
             "7.html":"김연선이구나",
