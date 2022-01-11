@@ -28,7 +28,7 @@
 
         if (password === null) { 
             location = "index.html"  
-        }   else if (total === "0103") {
+        }   else if (total === "0111") {
             message.show();
         }   else { 
                 alert("출입불가 에베베ㅔ 에에")
