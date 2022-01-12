@@ -14,7 +14,7 @@
             "4.html":"최서희 하이",
             "5.html":"김아주구나",
             "6.html":"허성희구나",
-            "7.html":"김연선이구나",
+            "7.html":"김연선 하2",
             "8.html":"엄마 안녕"
             }
 
@@ -28,15 +28,10 @@
 
         if (password === null) { 
             location = "index.html"  
-        }   else if (total === "0111") {
+        }   else if (total === "0111" || total === "5") {
             message.show();
         }   else { 
                 alert("출입불가 에베베ㅔ 에에")
-                // while (i < 3) {
-                //    i = i++
-                //    prompt(i + " 회 오류, 누구냐","")
-                // }
-                // var i = 0;
                 location  = "index.html"   
         }
 
